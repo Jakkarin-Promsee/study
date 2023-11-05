@@ -1,0 +1,298 @@
+/* Comment */ Or Ctrl + /
+
+< Selector in CSS >
+
+Element Selector
+    -> h1 {}
+
+Class Selector 
+    -> .container {}
+
+ID Selector 
+    -> #id {}
+
+Union Selector
+    -> h1, .container, #id {}
+
+Universal Selector  
+    -> * {}
+
+----------------------------------------------------------------------------
+
+< Import file CSS >
+
+External CSS file
+<link rel="stylesheet" href=" path ">
+
+----------------------------------------------------------------------------
+
+< Unit in CSS >
+
+Absolute Unit
+    px => 1pt=0.75pt
+    pt => 1pt=1/72 inchs
+    cm
+    mm
+    in 
+    pc
+
+Relative Unit
+    % => use for width and height
+    em => time of size of children
+    rem => like the em
+    vw => 1% is 1/100 of viewport width
+    vh => 1% is 1/100 of viewport height
+    vmin, vmax =>  max or min of viewport
+
+----------------------------------------------------------------------------
+
+< Element >
+
+margin
+padding
+
+----------------------------------------------------------------------------
+
+< Font in CSS >
+
+Can find font in cssfontstack.com Of Google Fonts
+
+font-family: NameOfFont;
+font-family: sans-serif;
+
+----------------------------------------------------------------------------
+xxx mean top, bottom, left, right
+
+z-index:
+
+color:
+bakcground-color:
+
+bakcground-image: url(path);
+bakcground-repeat: xxx;
+    repeat
+    repeat-x
+    repeat-y
+    no-repeat
+background-attachment:
+    scroll
+    fixed
+background-position:
+    center
+    left
+    right
+    top
+    bottom
+background-size:
+    %
+    auto
+    cover
+    contain
+
+font-size: 
+font-weight:
+font-style:
+font-family: 
+text-decoration:
+text-aligh:
+
+width:
+height:
+width-min:
+width-max:
+height-min:
+height-max:
+
+border:
+border-radius:
+border-style:
+border-color:
+border-xxx-color:
+border-width:
+border-xxx-width:
+
+margin:
+margin-xxx:
+padding:
+padding-xxx:
+(top, right, buttom, left)
+
+float:
+    left
+    right
+    ingerit
+    none
+clear:
+    left
+    right
+    both
+box-sizing: border-box;
+
+:link => don't have clicked
+:visited => have clicked
+:hover => is doing click
+
+display:
+    none
+    block
+    inline
+    inling-block
+
+visibility:
+    hidden
+    visible
+
+position:
+    static => default
+    relative => top: right: buttom: left: (can move)
+    absolute => top: right: buttom: left: (can move) use in container
+    fixed => fixed (fixed position object though move website)
+    sticky => fixed but sticky (fixed position object though move website)
+
+!important;
+
+overflow:
+    visible
+    hidden
+    scroll
+    auto
+overflow-x: scroll;
+overflow-y: scroll;
+
+box-shadow : x y blur spead color
+box-shadow : 10px 10px 10px 5px readonly
+
+opacity: (0.0-1.0)
+    0 - Low
+    1 - High
+
+----------------------------------------------------------------------------
+
+< All function >
+
+color: 
+    black
+    #f2f2f2
+    rgb(0,0,0)
+    hsl(0,0,0)
+
+
+bakcground-color:
+    black
+    #f2f2f2
+    rgb(0,0,0)
+    HAL(0,0,0)
+
+
+bakcground-image: url(path);
+bakcground-repeat: xxx;
+    repeat
+    repeat-x
+    repeat-y
+    no-repeat
+background-attachment:
+    scroll
+    fixed
+background-position:
+
+font-size: 
+    20px
+    2em
+    3rem
+    xx-small
+
+
+font-weight:
+    bold
+    bolder
+    lighter
+    normal
+
+
+font-style:
+    normal
+    italic
+
+
+font-family: 
+    Name of font
+
+
+text-decoration:
+    underline
+    overline
+    line-through
+    none
+
+
+text-aligh:
+    left
+    right 
+    center
+    justify
+
+width-min:
+width-max:
+height-min:
+height-max;
+
+width:
+    auto
+    length
+    %
+
+height:
+    auto
+    length
+    %
+
+
+border: 4px solid black;
+    solid => line
+    dotted => dot
+    dashed => dot dash
+
+
+border-radius:
+    20px
+    2em
+    3rem
+
+
+border-style:
+    solid
+    dotted
+    dashed
+    double
+
+
+border-color:
+    black
+    #f2f2f2
+    rgb(0,0,0)
+    HAL(0,0,0)
+
+
+border-width:
+    medium
+    thin 
+    thick
+    initial
+    inherit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

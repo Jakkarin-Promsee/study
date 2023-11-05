@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-decoration: none;
+}
+
+.void {
+    height: 50px;
+}
+
+.icon-bar-horizontal a {
+    width: 20%;
+    float: left;
+    color: white;
+    background-color: gray;
+    display: inline;
+    padding: 15px;
+    text-align: center;
+}
+
+a {
+    font-size: 30px;
+}
+
+
+.icon-bar-horizontal {
+    display: block;
+    background-color: white;
+    border: 2px solid black;
+    overflow: auto;
+    
+}
+
+.icon-bar-horizontal .active {
+    background-color: green;
+}
+
+
+.icon-bar-vertical {
+    margin-top: 30px;
+    float: left;
+    width: 20%;
+    display: block;
+    background-color: white;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+.icon-bar-vertical a {
+    width: 100%;
+    display: block;
+    color: white;
+    background-color: gray;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.icon-bar-vertical .active {
+    background-color: red;
+    
+}
+
+.content {
+    float: right;
+    display: block;
+    width: 80%;
+    border: 2px solid white;
+    padding-left: 10px;
+    padding-top: 0px;
+    margin-top: 30px;
+}
+
+div {
+    padding: 0px;
+}

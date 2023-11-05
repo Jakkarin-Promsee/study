@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Icon Bar</title>
+    <link rel="stylesheet" href="/Practice/Day2/style.css" />
+  </head>
+  <body>
+    <div class="main-box">
+      <div class="top-left" onclick="tlClick(this)">
+        <div>
+          <div class="tl-box-left"></div>
+          <div class="tl-box-center"></div>
+          <div class="tl-box-right"></div>
+        </div>
+      </div>
+      <div class="top-center" onclick="tcClick(this)">
+        <div class="tc-box-left"></div>
+        <div class="tc-box-center"></div>
+        <div class="tc-box-right"></div>
+      </div>
+
+      <div class="top-right" onclick="trClick(this)">
+        <div>
+          <div class="tr-box-left"></div>
+          <div class="tr-box-center"></div>
+          <div class="tr-box-right"></div>
+        </div>
+      </div>
+    </div>
+
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <script>
+      function tlClick(x) {
+        x.classList.toggle("tl");
+      }
+
+      function tcClick(x) {
+        x.classList.toggle("tc");
+      }
+
+      function trClick(x) {
+        x.classList.toggle("tr");
+      }
+    </script>
+  </body>
+</html>

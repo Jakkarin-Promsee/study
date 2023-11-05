@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .mainbox {
+        position: relative;
+        width: 200px;
+        height: 70px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ff4655;
+        border: 2px solid black;
+      }
+
+      .mainbox a {
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(236, 232, 225);
+        font-size: 25px;
+        font-weight: bolder;
+      }
+
+      .mainbox .back {
+        width: 0px;
+        height: 70px;
+        background-color: rgb(15, 25, 35);
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        transform: translate(0%, -50%);
+        transition: 1s;
+      }
+
+      .mainbox:hover {
+        .back {
+          width: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mainbox">
+      <div class="back"></div>
+      <a href="#">เล่นไม่ฟรี</a>
+    </div>
+  </body>
+</html>

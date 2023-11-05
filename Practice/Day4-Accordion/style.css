@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.accordion {
+  display: flex;
+  width: 80%;
+  color: black;
+  background-color: #ababab;
+  padding: 20px;
+  text-align: left;
+  border: 2px solid black;
+  outline: none;
+  transition: 0.4s;
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.accordion::after {
+  content: "-";
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.active:after {
+  content: "+";
+}
+
+.panel {
+  width: 80%;
+  margin: 0 auto;
+  display: none;
+  overflow: hidden;
+  padding: 20px;
+  background-color: white;
+  transition: max-height 0.2s ease-in-out;
+  transition: 0.3s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #6d6c6c;
+}
+
+.main-box {
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}

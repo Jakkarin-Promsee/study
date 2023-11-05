@@ -1,0 +1,245 @@
+<!-- Comment --> Or Ctrl + /
+
+
+
+<h1></h1>, <h2></h2>, ..., <h6></h6>
+    <sup></sup>
+    <sup></sup>
+<p></p>
+    <small></small>
+    <strong></strong>
+    <b></b>
+    <i></i>
+    <u></u>
+    <del></del>
+    <mark></mark>
+    <ins></ins>
+<br/>
+<hr>
+
+lorem40 (function to create sentence)
+
+----------------------------------------------------------------------------
+
+// external website <a href="../ path ">content</a>
+// intanal website <a href=" path ">content</a>
+<a href=" " >content</a>
+<a href=" " target="_blank">content</a>
+
+----------------------------------------------------------------------------
+
+<img src="" alt="" width="" height="">
+<img src=" path " alt=" description " width=" 900 " height=" 400">
+<a href=" " > <img src="" alt=""> </a>
+
+<video controls width="">
+    <source  src="" type="video/mp4">
+</video>
+
+----------------------------------------------------------------------------
+
+OL : Order List :
+<ol type = "">
+    <li> Order 1 </li>
+    <li> Order 2 </li>
+    <li> Order 3 </li>
+</ol>
+
+type :
+    "A" - Uppercase
+    "a" - Lowercase
+    "l" - Roman number
+
+----------------------------------------------------------------------------
+
+UI : Unorder List :
+<ul type = "">
+    <li> Order 1 </li>
+    <li> Order 2 </li>
+    <li> Order 3 </li>
+</ul>
+
+type :
+    "disc" - black dot
+    "circle" - circle
+    "square" - square
+
+----------------------------------------------------------------------------
+
+<table></table>
+<thead></thead>
+<tbody></tbody>
+<tfoot></tfoot>
+<tr></tr>
+<td></td>
+<th></th>
+
+<table border="1" bgcolor="aqua" width="50%">
+        <thead>
+            <th>Type 1</th>
+            <th>Type 2</th>
+            <th>Type 3</th>
+            <th>Type 4</th>
+        </thead>
+        <tbody>
+            <tr bgcolor="white">
+                <td bgcolor="pink"> i 1 </td>
+                <td> i 2 </td>
+                <td> i 3 </td>
+                <td> i 4 </td>
+            </tr>
+            <tr>
+                <td> j 1 </td>
+                <td> j 2 </td>
+                <td> j 3 </td>
+                <td> j 4 </td>
+            </tr>
+            <tr>
+                <td> k 1 </td>
+                <td> k 2 </td>
+                <td> k 3 </td>
+                <td> k 4 </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>cost</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+colspan=""
+rowspan=""
+
+align="left, center, right"
+
+cellpadding = ""
+cellspacing = ""
+    
+----------------------------------------------------------------------------
+
+<span></span> don't have enter between object
+<div></div> have enter between object
+
+----------------------------------------------------------------------------
+
+<input></input>
+<select></select>
+<option></option>
+<button></button>
+<label></label>
+<textarea></textarea>
+
+<h1>Input Data</h1>
+    <form>
+        <div>
+            <label for="first name">First name : </label>
+            <input type="text" name="fname" placeholder="input your first name" required>
+        </div>
+        <div>
+            <label for="last name">Last name : </label>
+            <input type="text" name="lname" placeholder="input your last name" readonly>
+        </div>
+        <div>
+            <label for="email">Email : </label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label for="password">password : </label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label for="location">location : </label>
+            <textarea name="location" id="" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="age">age : </label>
+            <input type="number" name="age" min="0" max="30" value="18">
+        </div>
+        <div>
+            <label for="birthday">birthday : </label>
+            <input type="date" name="birthday">
+        </div>
+        <div>
+            <label for="phone">phone : </label>
+            <input type="tel" name="phone">
+        </div>
+        <div>
+            <label for="color">color : </label>
+            <input type="color" name="color">
+        </div>
+        <div>
+            <label for="rangenumber">rangenumber : </label>
+            <input type="range" name="rangenumber"> <!-- 0 - 100 -->
+        </div>
+
+        <div>
+            <label for="education">education : </label>
+            <select name="education" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4" selected>4</option>
+            </select>
+        </div>
+        <div>
+            <label for="gender">gender : </label>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">female
+            <input type="radio" name="gender">other
+        </div>
+        <div>
+            <label for="like">like : </label>
+            <input type="checkbox" name="like">footbal
+            <input type="checkbox" name="like">swimming
+            <input type="checkbox" name="like">running
+        </div>
+
+        <div>
+            <label for="upload">document</label>
+            <input type="file">
+        </div>
+        <div>
+            <label for="upload">document</label>
+            <input type="url">
+        </div>
+
+        <div>
+            <input type="submit" value="save">
+            <button type="submit"> reset</button>
+        </div>
+    </form>
+
+required
+readonly
+
+----------------------------------------------------------------------------
+
+block - full line
+inline - equal content
+
+<style>
+        h1{
+            for <h1></h1>
+        }
+
+        .contain{
+            for class contain
+        }
+
+        #item1{
+            for id item1
+        }
+    </style>
+
+----------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
